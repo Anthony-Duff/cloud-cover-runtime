@@ -63,6 +63,7 @@ build:
 
 ## Pulls the official container tagged cpu-latest or gpu-latest from Docker hub
 pull:
+	docker login -u anthonyduff
 	docker pull ${IMAGE}
 
 ## Creates a submission/submission.zip file from the benchmark source code in benchmark_src
