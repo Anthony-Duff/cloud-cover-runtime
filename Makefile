@@ -19,7 +19,7 @@ ifeq (${SKIP_GPU}, true)
 GPU_ARGS =
 endif
 
-REPO = Anthony-Duff/cloud-cover-runtime
+REPO = anthony-duff/cloud-cover-runtime
 
 TAG = ${CPU_OR_GPU}-latest
 LOCAL_TAG = ${CPU_OR_GPU}-local
